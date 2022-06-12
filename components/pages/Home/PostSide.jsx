@@ -1,7 +1,13 @@
 import React from "react";
-
+import PostHeader from "./PostSide/PostHeader";
+import Post from "./PostSide/Post";
 const PostSide = () => {
-  return <div>Post Side</div>;
+  return (
+    <div>
+      <PostHeader />
+      <Post />
+    </div>
+  );
 };
 
 export default PostSide;

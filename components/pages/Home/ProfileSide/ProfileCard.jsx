@@ -2,7 +2,7 @@ import React from "react";
 const ProfileCard = () => {
   return (
     <>
-      <div className="w-full p-5 bg-gray-100 rounded-lg ">
+      <div className="w-full p-5 bg-gray-100 rounded-lg drop-shadow-lg ">
         <img
           className="object-cover w-full h-36 rounded-tl-xl rounded-tr-xl"
           src="https://i.ibb.co/d5mVW25/cover.jpg"
