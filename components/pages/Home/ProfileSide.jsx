@@ -25,7 +25,7 @@ const ProfileSide = () => {
           <WhoFollowMe />
           <WhoFollowMe />
           <WhoFollowMe />
-          <button className="mx-auto my-6 overflow-x-hidden w-96 btn btn-sm bgBtn ">
+          <button className="mx-auto my-6 capitalize w-96 btn btn-sm bgBtn ">
             Sell All
           </button>
         </div>
