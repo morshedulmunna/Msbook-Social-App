@@ -6,7 +6,7 @@ import { ProfileSide, TrendSide, PostSide } from "../components/pages";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-transparent App">
+    <div className="bg-transparent App scroll-smooth">
       <span
         className="blur1 blur-2xl -z-30"
         style={{ top: "-18%", right: "0" }}
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       />
 
       <main className="grid grid-cols-12 gap-5 ">
-        <div className="col-span-3">
+        <div className="sticky top-0 col-span-3">
           <ProfileSide />
         </div>
         <div className="col-span-6 ">
