@@ -13,7 +13,7 @@ const ProfileSide = () => {
           <ProfileCard />
         </div>
         <h2 className="py-5 pl-2 text-lg font-bold">Who is Following You </h2>
-        <div className="overflow-y-scroll bg-gray-100 rounded-lg h-80 drop-shadow-lg">
+        <div className="flex flex-col items-center justify-between overflow-y-scroll bg-gray-100 rounded-lg h-80 drop-shadow-lg ">
           <WhoFollowMe />
           <WhoFollowMe />
           <WhoFollowMe />
@@ -25,7 +25,7 @@ const ProfileSide = () => {
           <WhoFollowMe />
           <WhoFollowMe />
           <WhoFollowMe />
-          <button className="mx-auto my-6 capitalize w-96 btn btn-sm bgBtn ">
+          <button className="mx-auto my-6 capitalize w-[90%]  btn btn-sm bgBtn ">
             Sell All
           </button>
         </div>
