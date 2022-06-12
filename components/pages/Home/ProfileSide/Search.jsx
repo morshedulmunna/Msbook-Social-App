@@ -5,7 +5,7 @@ import { BiSearchAlt } from "react-icons/bi";
 const Search = () => {
   return (
     <>
-      <div className="flex items-center w-full">
+      <div className="flex items-center w-full bg-white">
         <i className="text-5xl text-primary">
           <TiSocialFlickr />
         </i>

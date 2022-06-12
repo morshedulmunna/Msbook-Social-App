@@ -15,9 +15,9 @@ const PostHeader = () => {
         />
         <form className="w-full">
           <textarea
-            class="textarea textarea-ghost placeholder:text-xl w-full resize-none "
+            class="textarea textarea-ghost placeholder:text-xl w-full resize-none text-xl mb-3"
             placeholder="Whats on your Mind......?"
-            rows="1"
+            rows="2"
             cols="50"
           ></textarea>
 
