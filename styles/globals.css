@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@layer components {
+  .App {
+    overflow: hidden;
+    color: #000000;
+    background: #f3f3f3;
+    padding: 1rem;
+  }
+
+  .blur1 {
+    position: absolute;
+    width: 20rem;
+    height: 18rem;
+    background: #a6ddf0;
+  }
+  .bgBtn {
+    background: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+    border: none;
+  }
+}
