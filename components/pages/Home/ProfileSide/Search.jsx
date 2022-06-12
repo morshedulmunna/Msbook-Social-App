@@ -13,11 +13,11 @@ const Search = () => {
           <input
             type="text"
             placeholder="Type here"
-            class="input input-bordered rounded-sm input-sm w-full max-w-xs"
+            class="input input-bordered rounded-sm input-sm w-full "
           />
           <button class="btn btn-sm bgBtn rounded-sm capitalize ">
             <i className="text-white">
-              <BiSearchAlt size={25} />
+              <BiSearchAlt size={28} />
             </i>
           </button>
         </div>
