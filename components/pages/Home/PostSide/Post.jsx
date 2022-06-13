@@ -41,16 +41,18 @@ const Post = () => {
           />
         </div>
         <div className="mt-3">
-          <i className="text-orange-500 bg-transparent border-none cursor-pointer hover:bg-transparent btn btn-sm ">
-            <AiFillHeart size={40} />
+          <i className="px-0 text-orange-500 bg-transparent border-none cursor-pointer hover:bg-transparent btn btn-sm grayscale ">
+            {/* onClick == grayscale-0 */}
+            <AiFillHeart size={35} />
           </i>
-          <i className="text-orange-500 bg-transparent border-none cursor-pointer hover:bg-transparent btn btn-sm ">
-            <FaCommentAlt size={33} />
+          <i className="px-0 ml-6 text-orange-500 bg-transparent border-none cursor-pointer hover:bg-transparent btn btn-sm grayscale ">
+            <FaCommentAlt size={28} />
           </i>
-          <i className="text-orange-500 bg-transparent border-none cursor-pointer hover:bg-transparent btn btn-sm">
-            <RiShareForwardFill size={40} />
+          <i className="px-0 ml-6 text-orange-500 bg-transparent border-none cursor-pointer hover:bg-transparent btn btn-sm grayscale ">
+            <RiShareForwardFill size={35} />
           </i>
         </div>
+        <span className="text-sm text-gray-400">2345 likes</span>
       </div>
     </>
   );
