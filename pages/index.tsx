@@ -8,16 +8,14 @@ import ButtomBar from "../components/shared/ButtomBar";
 const Home: NextPage = () => {
   return (
     <div className="relative bg-transparent App scroll-smooth">
-      <div className="">
-        <span
-          className="blur1 blur-2xl -z-30"
-          style={{ top: "-18%", right: "0" }}
-        />
-        <span
-          className="blur1 blur-2xl -z-30"
-          style={{ top: "36%", left: "-8rem" }}
-        />
-      </div>
+      <span
+        className="blur1 blur-2xl -z-30 fixed -top-[18%] right-0"
+        // style={{ top: "-18%", right: "0" }}
+      />
+      <span
+        className="blur1 blur-2xl -z-30 fixed top-[36%] -left-2"
+        // style={{ top: "36%", left: "-8rem" }}
+      />
 
       <main className="grid grid-cols-1 lg:gap-5 md:gap-5 lg:grid-cols-12 md:grid-cols-12">
         <div className="sticky top-0 hidden w-full col-span-3 md:col-span-4 lg:col-span-3 lg:block md:block ">

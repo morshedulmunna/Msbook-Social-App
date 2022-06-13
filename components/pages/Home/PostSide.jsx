@@ -6,6 +6,8 @@ const PostSide = () => {
     <div>
       <PostHeader />
       <Post />
+      <Post />
+      <Post />
     </div>
   );
 };

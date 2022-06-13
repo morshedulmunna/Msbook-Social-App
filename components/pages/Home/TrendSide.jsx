@@ -1,10 +1,9 @@
 import React from "react";
-
+import TrendHeader from "./TrendSide/TrendHeader";
 const TrendSide = () => {
   return (
     <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum
-      eos optio assumenda, distinctio nostrum corporis ipsam velit id sed iste
+      <TrendHeader />
     </div>
   );
 };
