@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 
 import { ProfileSide, TrendSide, PostSide } from "../components/pages";
+import SideBar from "../components/shared//SideBar";
 
 const Home: NextPage = () => {
   return (
@@ -16,15 +17,18 @@ const Home: NextPage = () => {
         style={{ top: "36%", left: "-8rem" }}
       />
 
-      <main className="grid grid-cols-12 gap-5 ">
-        <div className="sticky top-0 col-span-3">
+      <main className="grid grid-cols-12 gap-5 h-[120vh] ">
+        <div className="sticky top-0 hidden col-span-3 md:col-span-4 lg:col-span-3 lg:block md:block ">
           <ProfileSide />
         </div>
-        <div className="col-span-6 ">
+        <div className="sticky top-0 block col-span-1 lg:hidden md:hidden">
+          <SideBar />
+        </div>
+        <div className="col-span-11 lg:col-span-6 md:col-span-8 ">
           <PostSide />
         </div>
-        <div className="col-span-3">
-          <TrendSide />{" "}
+        <div className="hidden col-span-3 lg:block md:block">
+          <TrendSide />
         </div>
       </main>
     </div>

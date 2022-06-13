@@ -21,11 +21,13 @@ const PostHeader = () => {
             cols="50"
           ></textarea>
 
-          <div className="flex items-center justify-around gap-5 px-12">
-            <PostInput />
-            <PostInput />
-            <PostInput />
-            <PostInput />
+          <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between w-[70%] gap-5">
+              <PostInput />
+              <PostInput />
+              <PostInput />
+              <PostInput />
+            </div>
             <button className="mb-2 btn-big">Post Now</button>
           </div>
         </form>
