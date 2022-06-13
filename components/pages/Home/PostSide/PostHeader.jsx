@@ -22,8 +22,7 @@ const PostHeader = () => {
           ></textarea>
 
           <div className="flex items-center justify-between">
-            <div className="flex items-center justify-between w-[70%] gap-5">
-              <PostInput />
+            <div className="flex items-center justify-between w-[60%] gap-5">
               <PostInput />
               <PostInput />
               <PostInput />
