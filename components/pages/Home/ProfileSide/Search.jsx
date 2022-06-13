@@ -13,9 +13,9 @@ const Search = () => {
           <input
             type="text"
             placeholder="Type here"
-            class="input input-bordered rounded-sm input-sm w-full "
+            className="input input-bordered rounded-sm input-sm w-full "
           />
-          <button class="btn btn-sm bgBtn rounded-sm capitalize ">
+          <button className="btn btn-sm bgBtn rounded-sm capitalize ">
             <i className="text-white">
               <BiSearchAlt size={28} />
             </i>

@@ -15,7 +15,7 @@ const WhoFollowMe = () => {
             <span>@angelmim2</span>
           </div>
         </div>
-        <button className="w-[90%] my-6 mb-6 lg:my-0 lg:w-20 lg:ml-6 btn-Sml">
+        <button className="w-[90%] my-6 mb-6 lg:my-0 lg:w-20 lg:ml-6 btn-Sml duration-300 hover:scale-105">
           Follow
         </button>
       </div>

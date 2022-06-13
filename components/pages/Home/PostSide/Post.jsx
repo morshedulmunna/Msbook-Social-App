@@ -1,10 +1,12 @@
 import React from "react";
-import { RiEarthLine } from "react-icons/ri";
+import { RiEarthLine, RiShareForwardFill } from "react-icons/ri";
+import { AiFillHeart } from "react-icons/ai";
+import { FaCommentAlt } from "react-icons/fa";
 
 const Post = () => {
   return (
     <>
-      <div className="py-6">
+      <div className="px-3 py-1 mt-6 bg-gray-100 rounded-lg drop-shadow-lg">
         <div>
           {/* Post Profile */}
           <div className="flex gap-3">
@@ -14,7 +16,9 @@ const Post = () => {
               alt="Profile Photo"
             />
             <div>
-              <h2 className="font-bold">Zanday Mj</h2>
+              <h2 className="font-bold duration-300 cursor-pointer hover:scale-105">
+                Zanday Mj
+              </h2>
               <div className="flex items-center gap-1 text-gray-500 text-[15px]">
                 <span>Just now</span>
                 <i>
@@ -35,6 +39,17 @@ const Post = () => {
             src="https://i.ibb.co/ZN4NMTk/postpic1.jpg"
             alt="Post Image"
           />
+        </div>
+        <div className="mt-3">
+          <i className="text-orange-500 bg-transparent border-none cursor-pointer hover:bg-transparent btn btn-sm ">
+            <AiFillHeart size={40} />
+          </i>
+          <i className="text-orange-500 bg-transparent border-none cursor-pointer hover:bg-transparent btn btn-sm ">
+            <FaCommentAlt size={33} />
+          </i>
+          <i className="text-orange-500 bg-transparent border-none cursor-pointer hover:bg-transparent btn btn-sm">
+            <RiShareForwardFill size={40} />
+          </i>
         </div>
       </div>
     </>

@@ -17,21 +17,21 @@ const ProfileCard = () => {
           <h2 className="font-bold">Zanday Mj</h2>
           <p className="text-sm">Senior Web Developer</p>
         </div>
-        <div class="divider divider-vertical"></div>
-        <div class="flex w-full mt-3">
-          <div class="grid h-15 flex-grow card  rounded-box place-items-center">
+        <div className="divider divider-vertical"></div>
+        <div className="flex w-full mt-3">
+          <div className="grid flex-grow h-15 card rounded-box place-items-center">
             <span className="font-bold">5,645</span>
             <span>Followers</span>
           </div>
-          <div class="divider divider-horizontal"></div>
-          <div class="grid h-15 flex-grow card  rounded-box place-items-center">
+          <div className="divider divider-horizontal"></div>
+          <div className="grid flex-grow h-15 card rounded-box place-items-center">
             <span className="font-bold">12</span>
             <span>Following</span>
           </div>
         </div>
-        <div class="divider divider-vertical"></div>
+        <div className="divider divider-vertical"></div>
 
-        <button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bgBtn px-4 py-2 rounded-md w-[80%] font-bold text-white">
+        <button className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bgBtn px-4 py-2 rounded-md w-[80%] font-bold text-white shadow-orange-500/50 shadow-lg">
           My Profile
         </button>
       </div>

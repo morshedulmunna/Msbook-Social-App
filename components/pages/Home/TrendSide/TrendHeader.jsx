@@ -5,19 +5,19 @@ import { HiBell } from "react-icons/hi";
 const TrendHeader = () => {
   return (
     <div className="flex items-center justify-around w-full mt-2">
-      <i className="text-orange-500 cursor-pointer">
+      <i className="text-orange-500 duration-300 cursor-pointer hover:scale-125">
         <RiHome5Fill size={35} />
       </i>
-      <i className="text-orange-500 cursor-pointer">
+      <i className="text-orange-500 duration-300 cursor-pointer hover:scale-125">
         <RiSettings4Fill size={35} />
       </i>
-      <p className="relative text-orange-500 cursor-pointer ">
+      <p className="relative text-orange-500 duration-300 cursor-pointer hover:scale-125 ">
         <HiBell size={35} />
         <span className="absolute w-6 h-6 font-bold text-center bg-white rounded-full -top-1 left-5 ">
           34
         </span>
       </p>
-      <p className="relative text-orange-500 cursor-pointer">
+      <p className="relative text-orange-500 duration-300 cursor-pointer hover:scale-125">
         <RiMessage3Fill size={35} />
         <span className="absolute w-6 h-6 font-bold text-center bg-white rounded-full -top-1 left-5 ">
           3
