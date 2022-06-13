@@ -3,7 +3,7 @@ import React from "react";
 const WhoFollowMe = () => {
   return (
     <div className="w-full mt-6">
-      <div className="flex items-center justify-center lg:pl-5 pl-0 lg:w-[24rem] w-full flex-col lg:flex-row">
+      <div className="flex items-center justify-between lg:pl-5 pl-0 lg:w-[95%] w-full flex-col lg:flex-row">
         <div className="flex items-center justify-center gap-4">
           <img
             className="object-cover w-16 h-16 rounded-full"

@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <div className="sticky top-0 block col-span-1 lg:hidden md:hidden">
           <ButtomBar />
         </div>
-        <div className="hidden col-span-3 lg:block md:block">
+        <div className="hidden col-span-3 lg:block md:hidden">
           <TrendSide />
         </div>
       </main>
