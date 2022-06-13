@@ -4,7 +4,7 @@ import { HiBell } from "react-icons/hi";
 
 const TrendHeader = () => {
   return (
-    <div className="flex items-center justify-around w-full mt-2">
+    <div className="flex items-center justify-around w-full pt-2 mt-1">
       <i className="text-orange-500 duration-300 cursor-pointer hover:scale-125">
         <RiHome5Fill size={35} />
       </i>
