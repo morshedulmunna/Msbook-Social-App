@@ -8,6 +8,17 @@ const PostSide = () => {
       <Post />
       <Post />
       <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 };

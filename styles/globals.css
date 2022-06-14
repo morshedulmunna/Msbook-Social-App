@@ -34,3 +34,7 @@
     @apply capitalize shadow-lg btn btn-md bgBtn shadow-orange-500/50;
   }
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

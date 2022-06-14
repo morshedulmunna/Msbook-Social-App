@@ -1,5 +1,4 @@
 import React from "react";
-import { HiOutlinePhotograph, HiVideoCamera } from "react-icons/hi";
 
 const PostInput = () => {
   return (
