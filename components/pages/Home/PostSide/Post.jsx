@@ -35,8 +35,8 @@ const Post = () => {
           </p>
           {/* Post Image */}
           <img
-            className="object-cover w-full rounded-lg h-[35rem]"
-            src="https://i.ibb.co/ZN4NMTk/postpic1.jpg"
+            className="object-cover object-top w-full rounded-lg"
+            src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
             alt="Post Image"
           />
         </div>

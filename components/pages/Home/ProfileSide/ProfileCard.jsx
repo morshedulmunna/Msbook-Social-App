@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 const ProfileCard = () => {
   return (
@@ -30,10 +31,11 @@ const ProfileCard = () => {
           </div>
         </div>
         <div className="divider divider-vertical"></div>
-
-        <button className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bgBtn px-4 py-2 rounded-md w-[80%] font-bold text-white shadow-orange-500/50 shadow-lg">
-          My Profile
-        </button>
+        <Link href="/profile">
+          <button className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 bgBtn px-4 py-2 rounded-md w-[80%] font-bold text-white shadow-orange-500/50 shadow-lg">
+            My Profile
+          </button>
+        </Link>
       </div>
     </>
   );

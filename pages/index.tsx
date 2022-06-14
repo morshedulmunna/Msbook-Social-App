@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           <ProfileSide />
         </div>
 
-        <div className="col-span-11 lg:col-span-6 md:col-span-8 ">
+        <div className="col-span-11 overflow-auto lg:col-span-6 md:col-span-8 ">
           <PostSide />
         </div>
         <div className="block col-span-1 lg:hidden md:hidden">
