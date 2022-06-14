@@ -17,6 +17,11 @@ const TrendSide = () => {
         <TrendsForToday />
       </div>
       <div className="divider divider-vertical" />
+
+      <button className="btn btn-md bgBtn capitalize text-lg w-[50%] ">
+        {" "}
+        Share Post{" "}
+      </button>
     </div>
   );
 };

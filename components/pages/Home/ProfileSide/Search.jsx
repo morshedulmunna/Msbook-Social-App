@@ -1,14 +1,17 @@
 import React from "react";
 import { TiSocialFlickr } from "react-icons/ti";
 import { BiSearchAlt } from "react-icons/bi";
+import Link from "next/link";
 
 const Search = () => {
   return (
     <>
       <div className="flex items-center w-full bg-white">
-        <i className="text-5xl text-primary">
-          <TiSocialFlickr />
-        </i>
+        <Link href="/">
+          <i className="text-5xl text-primary cursor-pointer">
+            <TiSocialFlickr />
+          </i>
+        </Link>
         <div className="flex w-full">
           <input
             type="text"
